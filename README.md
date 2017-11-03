@@ -44,4 +44,7 @@ To search for java binaries (jar files), nltk checks the java CLASSPATH variable
     * It is best to use the package manager to install java.
     * [Here](https://introcs.cs.princeton.edu/java/15inout/classpath.html) how you can set it easily for MacOSx or ubuntu
     
-    
+It's easy and available for everyone but usually installing third party software is boring and tricky and you can [check](https://github.com/nltk/nltk/wiki/Installing-Third-Party-Software) if you want to know how nltk discover third party software
+
+[Here](https://nlp.stanford.edu/) all Stanford official work with NLP group you can check it if you want to learn more
+[Here](http://www.nltk.org/) NLTK official documentation
