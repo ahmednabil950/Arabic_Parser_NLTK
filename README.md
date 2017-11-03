@@ -36,11 +36,11 @@ Java is not required by nltk, however some third party software may be dependent
 To search for java binaries (jar files), nltk checks the java CLASSPATH variable, however there are usually independent environment variables which are also searched for each dependency individually.
 
 ### For Windows Users
-  * you Java to set your ![#1589F0][HOMEPATH] variable must be set in Environemt variables otherwise you will get many errors
+  * you Java to set your [HOMEPATH](#1589F0) variable must be set in Environemt variables otherwise you will get many errors
     * [Here](https://confluence.atlassian.com/doc/setting-the-java_home-variable-in-windows-8895.html) how you can set it easily
 
 ### Linux(Ubuntu) Users
-  * you Java to set your [#1589F0][CLASSPATH] variable must be set in Environemt variables otherwise you will get many errors
+  * you Java to set your [CLASSPATH](#1589F0) variable must be set in Environemt variables otherwise you will get many errors
     * It is best to use the package manager to install java.
     * [Here](https://introcs.cs.princeton.edu/java/15inout/classpath.html) how you can set it easily for MacOSx or ubuntu
     
