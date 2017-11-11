@@ -46,7 +46,7 @@ To search for java binaries (jar files), nltk checks the java CLASSPATH variable
     * [Here](https://confluence.atlassian.com/doc/setting-the-java_home-variable-in-windows-8895.html) how you can set it easily
 
 ### Linux(Ubuntu) Users
-  * you Java to set your [CLASSPATH](#1589F0) variable must be set in Environemt variables otherwise you will get many errors
+  * you have to set your [CLASSPATH](#1589F0) variable must be set in Environemt variables otherwise you will get many errors
     * It is best to use the package manager to install java.
     * [Here](https://introcs.cs.princeton.edu/java/15inout/classpath.html) how you can set it easily for MacOSx or ubuntu
     
