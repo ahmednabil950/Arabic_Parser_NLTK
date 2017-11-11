@@ -17,9 +17,12 @@ NLTK is the most famous Python Natural Language Processing Toolkit, [NLTK](http:
 Once you have downloaded Stanford API, it's a little tricky but you can run the arabic parser successfuly.
 
 code snippet example:
-*model_path:* [pretrained model](https://nlp.stanford.edu/software/stanford-arabic-corenlp-2017-06-09-models.jar) you can find it in the stanford-arabic-corenlp-yyyy-mm-dd-models/edu/stanford/nlp/models/lexparser/arabicFactored.ser.gz
-*path_to_jar:* path_to/stanford-parser-full-yyyy-mm-dd/stanford-parser.jar
-*path_to_models_jar:* path_to/stanford-parser-full-yyyy-mm-dd/stanford-parser-xx.xx.xx-models.jar'
+
+* *model_path:* [pretrained model](https://nlp.stanford.edu/software/stanford-arabic-corenlp-2017-06-09-models.jar) you can find it in the stanford-arabic-corenlp-yyyy-mm-dd-models/edu/stanford/nlp/models/lexparser/arabicFactored.ser.gz
+
+* *path_to_jar:* path_to/stanford-parser-full-yyyy-mm-dd/stanford-parser.jar
+
+* *path_to_models_jar:* path_to/stanford-parser-full-yyyy-mm-dd/stanford-parser-xx.xx.xx-models.jar'
 
 ```python
       from Parser import Parser
@@ -27,7 +30,10 @@ code snippet example:
       result = parser.parse_sentence(u'ذهبت الى منزلى الذى كان بعيداً بعد الفجر')
       print(result)
       
-      [Tree('ROOT', [Tree('S', [Tree('VP', [Tree('VBD', ['ذهبت']), Tree('PP', [Tree('IN', ['الى']), Tree('NP', [Tree('NN'['منزلى']),         Tree('SBAR', [Tree('WHNP', [Tree('WP', ['الذى'])]), Tree('S', [Tree('VP', [Tree('VBD', ['كان']), Tree('NP', [Tree('JJ',                 ['بعيدا'])]), Tree('NP', [Tree('NN', ['بعد']), Tree('NP', [Tree('DTNN', ['الفجر'])])])])])])])])])])])]
+      >>> [Tree('ROOT', [Tree('S', [Tree('VP', [Tree('VBD', ['ذهبت']), Tree('PP', [Tree('IN', ['الى']), Tree('NP'
+      >>> [Tree('NN'['منزلى']), Tree('SBAR', [Tree('WHNP', [Tree('WP', ['الذى'])]), Tree('S', [Tree('VP', [Tree('VBD', ['كان']),
+      >>> Tree('NP', [Tree('JJ', ['بعيدا'])]), Tree('NP', [Tree('NN', ['بعد']), Tree('NP', [Tree('DTNN'
+      >>> ['الفجر'])])])])])])])])])])])]
 ```
 Congrats !! you can friendly use the parser now 
 
